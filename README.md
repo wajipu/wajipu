@@ -29,14 +29,13 @@
 ## 技术栈
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,rust,go,swift,dart,flutter,android,react,ts,js,cpp,docker,linux,githubactions&amp;perline=7" alt="tech stack icons" />
+  <img src="./assets/tech-stack.svg" alt="animated tech stack" width="860" />
 </p>
 
 ## GitHub 动态
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=wajipu&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;rank_icon=github&amp;include_all_commits=true" alt="github stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wajipu&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;langs_count=8" alt="top languages" />
+  <img src="./assets/github-dashboard.svg" alt="github dashboard" width="860" />
 </p>
 
 <p align="center">
@@ -45,10 +44,6 @@
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=wajipu&amp;theme=tokyo-night&amp;hide_border=true&amp;area=true&amp;custom_title=Contribution%20Activity" alt="contribution activity graph" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=wajipu&amp;theme=tokyonight&amp;no-frame=true&amp;no-bg=true&amp;row=1&amp;column=6" alt="github trophies" />
 </p>
 
 ## 精选项目

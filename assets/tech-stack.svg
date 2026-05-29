@@ -1,0 +1,92 @@
+<svg width="900" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated tech stack</title>
+  <desc id="desc">Animated technology stack labels for Java, Rust, Go, Swift, Flutter, Android, C++, Docker, Linux, React, TypeScript, and GitHub Actions.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.52" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="80" y1="0" x2="820" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14B8A6"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .label { font: 700 17px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: 0; }
+      .small { font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: 0; }
+      .float-a { animation: floatA 4.8s ease-in-out infinite; }
+      .float-b { animation: floatB 5.4s ease-in-out infinite; }
+      .float-c { animation: floatC 6s ease-in-out infinite; }
+      @keyframes floatA { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+      @keyframes floatB { 0%,100% { transform: translateY(-4px); } 50% { transform: translateY(7px); } }
+      @keyframes floatC { 0%,100% { transform: translateY(3px); } 50% { transform: translateY(-6px); } }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="258" rx="24" fill="url(#bg)" stroke="#334155" stroke-width="2"/>
+  <path d="M72 67H828" stroke="url(#stroke)" stroke-width="3" stroke-linecap="round"/>
+  <text x="450" y="44" fill="#F8FAFC" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="26" font-weight="800">Tech Stack</text>
+  <text x="450" y="226" fill="#94A3B8" text-anchor="middle" class="small">Backend services · macOS tools · Flutter/native integrations · automation</text>
+
+  <g class="float-a">
+    <rect x="74" y="94" width="112" height="44" rx="12" fill="#7F1D1D" stroke="#F87171" stroke-opacity="0.32"/>
+    <text x="130" y="122" fill="#FEE2E2" text-anchor="middle" class="label">Java</text>
+  </g>
+  <g class="float-b">
+    <rect x="204" y="86" width="112" height="44" rx="12" fill="#431407" stroke="#FB923C" stroke-opacity="0.34"/>
+    <text x="260" y="114" fill="#FFEDD5" text-anchor="middle" class="label">Rust</text>
+  </g>
+  <g class="float-c">
+    <rect x="334" y="98" width="96" height="44" rx="12" fill="#164E63" stroke="#22D3EE" stroke-opacity="0.35"/>
+    <text x="382" y="126" fill="#CFFAFE" text-anchor="middle" class="label">Go</text>
+  </g>
+  <g class="float-a">
+    <rect x="448" y="88" width="112" height="44" rx="12" fill="#7C2D12" stroke="#FDBA74" stroke-opacity="0.34"/>
+    <text x="504" y="116" fill="#FED7AA" text-anchor="middle" class="label">Swift</text>
+  </g>
+  <g class="float-b">
+    <rect x="578" y="96" width="126" height="44" rx="12" fill="#1E3A8A" stroke="#60A5FA" stroke-opacity="0.35"/>
+    <text x="641" y="124" fill="#DBEAFE" text-anchor="middle" class="label">Flutter</text>
+  </g>
+  <g class="float-c">
+    <rect x="722" y="88" width="104" height="44" rx="12" fill="#14532D" stroke="#4ADE80" stroke-opacity="0.35"/>
+    <text x="774" y="116" fill="#DCFCE7" text-anchor="middle" class="label">Android</text>
+  </g>
+
+  <g class="float-b">
+    <rect x="132" y="157" width="88" height="36" rx="10" fill="#111827" stroke="#475569"/>
+    <text x="176" y="181" fill="#E2E8F0" text-anchor="middle" class="small">C++</text>
+  </g>
+  <g class="float-c">
+    <rect x="242" y="164" width="104" height="36" rx="10" fill="#111827" stroke="#475569"/>
+    <text x="294" y="188" fill="#E2E8F0" text-anchor="middle" class="small">Docker</text>
+  </g>
+  <g class="float-a">
+    <rect x="368" y="155" width="94" height="36" rx="10" fill="#111827" stroke="#475569"/>
+    <text x="415" y="179" fill="#E2E8F0" text-anchor="middle" class="small">Linux</text>
+  </g>
+  <g class="float-b">
+    <rect x="484" y="164" width="92" height="36" rx="10" fill="#111827" stroke="#475569"/>
+    <text x="530" y="188" fill="#E2E8F0" text-anchor="middle" class="small">React</text>
+  </g>
+  <g class="float-c">
+    <rect x="598" y="155" width="122" height="36" rx="10" fill="#111827" stroke="#475569"/>
+    <text x="659" y="179" fill="#E2E8F0" text-anchor="middle" class="small">TypeScript</text>
+  </g>
+  <g class="float-a">
+    <rect x="742" y="164" width="86" height="36" rx="10" fill="#111827" stroke="#475569"/>
+    <text x="785" y="188" fill="#E2E8F0" text-anchor="middle" class="small">Actions</text>
+  </g>
+
+  <circle cx="72" cy="67" r="5" fill="#14B8A6" filter="url(#softGlow)">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M0 0H756"/>
+  </circle>
+</svg>
