@@ -10,9 +10,9 @@
 
 <p align="center">
   <a href="https://github.com/wajipu/PicBase64"><img alt="PicBase64" src="https://img.shields.io/badge/Project-PicBase64-0f766e?style=flat-square"></a>
-  <img alt="Swift" src="https://img.shields.io/badge/Swift-AppKit-f97316?style=flat-square&logo=swift&logoColor=white">
-  <img alt="Flutter" src="https://img.shields.io/badge/Flutter-Dart-0284c7?style=flat-square&logo=flutter&logoColor=white">
-  <img alt="Android" src="https://img.shields.io/badge/Android-Native-16a34a?style=flat-square&logo=android&logoColor=white">
+  <img alt="Swift" src="https://img.shields.io/badge/Swift-AppKit-f97316?style=flat-square&amp;logo=swift&amp;logoColor=white">
+  <img alt="Flutter" src="https://img.shields.io/badge/Flutter-Dart-0284c7?style=flat-square&amp;logo=flutter&amp;logoColor=white">
+  <img alt="Android" src="https://img.shields.io/badge/Android-Native-16a34a?style=flat-square&amp;logo=android&amp;logoColor=white">
   <img alt="Automation" src="https://img.shields.io/badge/Focus-Automation-7c3aed?style=flat-square">
 </p>
 
