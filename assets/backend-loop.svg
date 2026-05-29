@@ -1,0 +1,82 @@
+<svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated backend workflow</title>
+  <desc id="desc">A looping terminal style animation for backend, native integration, and automation work.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="900" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.48" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="120" y1="0" x2="780" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14B8A6"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="298" rx="24" fill="url(#panel)" stroke="#334155" stroke-width="2"/>
+  <rect x="34" y="32" width="832" height="236" rx="18" fill="#020617" stroke="#1E293B"/>
+
+  <circle cx="65" cy="58" r="7" fill="#F87171"/>
+  <circle cx="89" cy="58" r="7" fill="#FBBF24"/>
+  <circle cx="113" cy="58" r="7" fill="#34D399"/>
+
+  <text x="142" y="64" fill="#94A3B8" font-family="'SFMono-Regular', Consolas, monospace" font-size="17">wajipu@github:~/workspace</text>
+
+  <g font-family="'SFMono-Regular', Consolas, monospace" font-size="22" font-weight="700">
+    <text x="74" y="113" fill="#14B8A6">$</text>
+    <text x="104" y="113" fill="#E2E8F0">build --service api --lang java</text>
+    <rect x="472" y="96" width="12" height="24" fill="#14B8A6">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="74" y="153" fill="#38BDF8">></text>
+    <text x="104" y="153" fill="#CBD5E1">rust worker: parsing native events</text>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="3s" repeatCount="indefinite"/>
+  </g>
+
+  <g font-family="'SFMono-Regular', Consolas, monospace" font-size="18">
+    <text x="104" y="190" fill="#A7F3D0">go gateway</text>
+    <text x="235" y="190" fill="#64748B">-></text>
+    <text x="280" y="190" fill="#BFDBFE">swift app</text>
+    <text x="400" y="190" fill="#64748B">-></text>
+    <text x="445" y="190" fill="#DDD6FE">flutter ui</text>
+    <text x="582" y="190" fill="#64748B">-></text>
+    <text x="626" y="190" fill="#FED7AA">automation</text>
+  </g>
+
+  <path d="M106 219H794" stroke="#1E293B" stroke-width="12" stroke-linecap="round"/>
+  <path d="M106 219H794" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
+
+  <circle r="8" fill="#14B8A6" filter="url(#glow)">
+    <animateMotion dur="4.5s" repeatCount="indefinite" path="M106 219H794"/>
+  </circle>
+  <circle r="8" fill="#38BDF8" filter="url(#glow)">
+    <animateMotion dur="4.5s" begin="1.5s" repeatCount="indefinite" path="M106 219H794"/>
+  </circle>
+  <circle r="8" fill="#A78BFA" filter="url(#glow)">
+    <animateMotion dur="4.5s" begin="3s" repeatCount="indefinite" path="M106 219H794"/>
+  </circle>
+
+  <g opacity="0.85">
+    <rect x="106" y="237" width="132" height="11" rx="5.5" fill="#134E4A">
+      <animate attributeName="width" values="90;132;90" dur="2.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="266" y="237" width="170" height="11" rx="5.5" fill="#1E3A8A">
+      <animate attributeName="width" values="120;170;120" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="464" y="237" width="120" height="11" rx="5.5" fill="#4C1D95">
+      <animate attributeName="width" values="88;120;88" dur="2.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="612" y="237" width="182" height="11" rx="5.5" fill="#7C2D12">
+      <animate attributeName="width" values="130;182;130" dur="3.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
