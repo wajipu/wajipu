@@ -5,32 +5,35 @@
 <h1 align="center">wajipu</h1>
 
 <p align="center">
-  做实用工具、跨端能力、原生集成和自动化流程。
+  做后端服务、实用工具、跨端能力、原生集成和自动化流程。
 </p>
 
 <p align="center">
   <a href="https://github.com/wajipu/PicBase64"><img alt="PicBase64" src="https://img.shields.io/badge/Project-PicBase64-0f766e?style=flat-square"></a>
   <img alt="Swift" src="https://img.shields.io/badge/Swift-AppKit-f97316?style=flat-square&amp;logo=swift&amp;logoColor=white">
   <img alt="Flutter" src="https://img.shields.io/badge/Flutter-Dart-0284c7?style=flat-square&amp;logo=flutter&amp;logoColor=white">
-  <img alt="Android" src="https://img.shields.io/badge/Android-Native-16a34a?style=flat-square&amp;logo=android&amp;logoColor=white">
+  <img alt="Java" src="https://img.shields.io/badge/Java-Backend-b91c1c?style=flat-square&amp;logo=openjdk&amp;logoColor=white">
+  <img alt="Rust" src="https://img.shields.io/badge/Rust-Systems-7c2d12?style=flat-square&amp;logo=rust&amp;logoColor=white">
+  <img alt="Go" src="https://img.shields.io/badge/Go-Services-0891b2?style=flat-square&amp;logo=go&amp;logoColor=white">
   <img alt="Automation" src="https://img.shields.io/badge/Focus-Automation-7c3aed?style=flat-square">
 </p>
 
 ## 关于我
 
-我喜欢把重复、零散、容易出错的流程整理成小而可靠的工具。当前仓库主要围绕桌面效率工具、Flutter 实验、原生设备接入、串口通信和自动化打包。
+我喜欢把重复、零散、容易出错的流程整理成小而可靠的工具。当前仓库主要围绕后端服务、桌面效率工具、Flutter 实验、原生设备接入、串口通信和自动化打包。
 
 - 近期在完善 [PicBase64](https://github.com/wajipu/PicBase64)：一款轻量 macOS 菜单栏图片/Base64 工具。
-- 关注 native-first 体验、Flutter 插件、Android 硬件访问、串口/打印集成和自动化工作流。
+- 后端方向熟悉 Java / Rust / Go，也关注 native-first 体验、Flutter 插件、Android 硬件访问、串口/打印集成和自动化工作流。
 - 偏好清晰界面、清楚的项目结构，以及能直接解决真实流程的小工具。
 
 ## 技术栈
 
 | 方向 | 工具 |
 | --- | --- |
+| 后端 | Java, Rust, Go |
 | 桌面端 | Swift, AppKit, macOS menu bar apps |
 | 跨端 | Flutter, Dart, React |
-| 原生集成 | Android, Java, C++, serial ports |
+| 原生集成 | Android, C++, serial ports |
 | 自动化 | GitHub Actions, shell scripts, packaging workflows |
 
 ## 精选项目
@@ -46,6 +49,7 @@
 ## 近期关注
 
 - 把 macOS 小工具做得更轻、更稳定、更少步骤。
+- 沉淀 Java / Rust / Go 后端服务和工具链经验。
 - 整理 Flutter 和原生集成相关经验。
 - 减少项目噪音，让真正有用的内容更容易被看到。
 
